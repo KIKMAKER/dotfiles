@@ -70,3 +70,6 @@ export EDITOR=code
 
 # Set ipdb as the default Python debugger
 export PYTHONBREAKPOINT=ipdb.set_trace
+
+export PGDATA=/usr/local/var/postgresql@15
+export PATH="/usr/local/opt/libpq/bin:$PATH"
