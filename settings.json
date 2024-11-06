@@ -1,9 +1,4 @@
 {
-  "[python]": {
-    "editor.bracketPairColorization.enabled": false,
-    "editor.guides.bracketPairs": false,
-    "editor.tabSize": 4
-  },
   "editor.bracketPairColorization.enabled": true,
   "editor.detectIndentation": false,
   "editor.fontSize": 14,
@@ -18,6 +13,7 @@
   "editor.showFoldingControls": "always",
   "editor.snippetSuggestions": "top",
   "editor.tabSize": 2,
+  "editor.formatOnSave": true,
   "emmet.includeLanguages": {
     "erb": "html"
   },
@@ -45,7 +41,8 @@
     "tmp": true
   },
   "files.associations": {
-    "*.html.erb": "erb"
+    "*.html.erb": "erb",
+    "*.erb": "erb"
   },
   "files.hotExit": "off",
   "files.insertFinalNewline": true,
@@ -82,7 +79,16 @@
   "workbench.settings.useSplitJSON": true,
   "workbench.startupEditor": "newUntitledFile",
   "workbench.panel.defaultLocation": "right",
+  "workbench.colorTheme": "Solarized Light",
   "files.autoSave": "afterDelay",
+  "explorer.confirmDragAndDrop": false,
+  "security.workspace.trust.untrustedFiles": "open",
+  "window.zoomLevel": -1,
+  "[python]": {
+    "editor.bracketPairColorization.enabled": false,
+    "editor.guides.bracketPairs": false,
+    "editor.tabSize": 4
+  },
   "[javascript]": {
     "editor.defaultFormatter": "esbenp.prettier-vscode"
   },
@@ -96,12 +102,11 @@
     "editor.defaultFormatter": "aliariff.vscode-erb-beautify",
     "editor.formatOnSave": true
   },
-  "files.associations": {
-    "*.erb": "erb"
-  },
-  "editor.formatOnSave": true
-    "workbench.colorTheme": "Visual Studio Light",
-  "explorer.confirmDragAndDrop": false,
-  "security.workspace.trust.untrustedFiles": "open",
-  "window.zoomLevel": -1,
+  "git.openRepositoryInParentFolders": "never",
+  "github.copilot.enable": {
+    "*": false,
+    "plaintext": false,
+    "markdown": false,
+    "scminput": false
+  }
 }
